@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sec_contact {
+    /* padding: 0 90px; */
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.sec_contact iframe {
+    width: 100%;
+    height: 500px;
+}
+.frame{
+    margin-bottom: 50px;
+}
+.info_con {
+    padding: 0 90px;
+    width: 100%;
+    display: flex;
+}
+
+.info {
+    width: 45%;
+    margin-right:20px ;
+}
+.comment{
+    width: 55%; 
+}
+
+.bold_text {
+    font-size: 32px;
+    font-weight: 500;
+    color: rgb(41, 41, 41);
+    margin-bottom: 20px;
+}
+
+.gray_text {
+    color: #686868;
+    margin: 15px 0;
+}
+
+.icon i {
+    font-size: 25px;
+    color: rgb(41, 41, 41);
+
+}
+
+.icon span {
+    font-size: 21px;
+}
+
+.icon {
+    margin: 20px 0;
+}
+
+.comment div {
+    margin-bottom: 25px;
+}
+
+.comment div p {
+    margin-bottom: 10px;
+}
+
+
+.comment div input {
+    width: 600px;
+    height: 40px;
+    border-color: #f4f4f4;
+    outline: none;
+    border:1px solid  #f4f4f4;
+
+}
+
+.comment div input:focus {
+    border-color: #f4f4f4;
+}
+
+.comment textarea {
+    width: 600px;
+    height: 150px;
+    border:2px solid #f4f4f4;
+
+}
+
+.comment button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(41, 41, 41);
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.comment button:hover{
+    background-color: rgb(44,175,78);
+}
+
+
+.horizontal{
+    margin: 0 90px;
+    background-color: #f4f4f4;
+    height: 2px;
+    margin-top: 50px;
+}
+
+/* .comment input{
+    width: 300px;
+    height: 30px;
+    text-indent: 5px;
+    margin-bottom: 5px;
+}
+.comment{
+    display: flex;
+    flex-direction: column;
+}
+.comment p{
+    font-size: 21px;
+}
+.comment button{
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+.comment button:hover{
+    border: none;
+    background-color: forestgreen;
+    color: white;
+}
+.comment div{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+.comment textarea{
+    width: 500px;
+    height: 150px;
+    text-indent: 5px;
+}
+.frame p{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info_con{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.info p{
+    margin-bottom: 10px;
+} */

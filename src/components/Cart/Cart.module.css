@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.image_box {
+    width: 243px;
+    height: 325px;
+    background-color: #f7f7f7;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.image_box p {
+    position: absolute;
+    left: 90px;
+    bottom: 20px;
+}
+
+
+
+.cart_table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-right: 20px;
+
+
+}
+
+
+.cart_table td {
+    width: 12%;
+}
+
+.cart_table thead tr {
+    text-align: left;
+}
+
+.cart_table tbody tr:first-child p {
+    text-align: center;
+}
+
+.cart_table thead tr th {
+    text-align: center;
+}
+
+.cart_table thead {
+    /* background-color: #eaf8dd; */
+    background-color:#6c757d;
+color: #ffffff;
+height: 40px;
+
+}
+
+.cart_table tbody tr td i{
+    color: rgb(41,41,41);
+}
+.cart_table tbody tr td {
+    text-align: center;
+    /* width: 4%; */
+}
+
+.cart_table tbody tr td .count{
+    width: 30px;
+    height: 30px;
+    background-color: #f7f7f7;
+    border: none;
+    font-size: 20px;
+    color: rgb(41,41,41);
+
+}
+.cart_table tbody tr td span{
+    margin: 0 5px;
+}
+
+
+.cart_total {
+    width: 100%;
+    padding: 0 90px;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.cart_table tbody tr td .count:hover{
+    background-color: rgb(44,175,78);
+    border: none;
+    color: #ffffff;
+}
+.stock{
+    width: 70px;
+    height: 35px;
+    background-color: rgb(44,175,78);
+    color: #f7f7f7;
+    border: none;
+}
+
+.cart_table tbody tr td i:hover{
+    color: rgb(206, 26, 26);
+}
+.cart_table tbody tr td i{
+    font-size: 20px;
+}
+
+
+.total {
+    width: 350px;
+    height: 325px;
+    background-color:#6c757d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 20px;
+    position: sticky;
+    top: 130px;
+
+    
+}
+
+.td_img{
+    padding: 10px 0;
+}
+/* .th_end{
+    padding-right: 20px
+} */
+.sum div span{
+    color: #ffffff ;
+    font-size: 18px;
+}
+
+
+.total b{
+    margin-top: 5px;
+    color: #ffffff;
+    font-size: 20px;
+}
+.sum{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sum div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.total button{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.total button:hover{
+    color: rgb(44,175,78);
+}
+
+.image_hover img{
+    width: 240px;
+    height: 320px;
+}

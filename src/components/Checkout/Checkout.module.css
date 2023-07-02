@@ -1,0 +1,120 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.checkout{
+    width: 100%;
+    padding: 0 90px;
+    height: 480px;
+    display: flex;
+    margin-top: 50px;
+}
+.input_group{
+    width: 60%;
+    margin-right: 20px;
+
+}
+
+.input_group textarea{
+    width: 99%;
+    height: 122px;
+    text-indent: 5px;
+}
+.input_group form div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.input_group form{
+    display: flex;
+   
+}
+.input_group form div input {
+    width: 98%;
+    height: 45px;
+    margin-bottom: 5px;
+    text-indent: 5px;
+}
+
+.total {
+    width: 350px;
+    height: 325px;
+    background-color:#6c757d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 20px;
+
+}
+.sum{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sum div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.total button{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #f4f4f4;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.total button:hover{
+    color:rgb(44,175,78) ;
+    /* background-color: rgb(44,175,78); */
+}
+
+.total b{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.sum div span{
+    color: #ffffff ;
+    font-size: 18px;
+}
+.gif img{
+    width: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

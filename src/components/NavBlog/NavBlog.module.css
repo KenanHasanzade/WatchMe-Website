@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.blog_container {
+    padding: 0 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.title p:first-child {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.title p {
+    color: rgb(41, 41, 41);
+
+}
+
+.img_frame img {
+    width: 360px;
+    height: 215px;
+    transition-duration: 1s;
+
+
+}
+
+.blog_box {
+    width: 362px;
+    margin-bottom: 50px;
+}
+
+.description_box {
+    margin-top: 5px;
+}
+
+.description_box p:first-child {
+    color: rgb(41, 41, 41);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.description_box p:last-of-type {
+    font-size: 14px;
+    color: #B3B3B3;
+    margin: 10px 0 10px 0;
+
+}
+
+.description_box button {
+    width: 130px;
+    height: 40px;
+    background-color: #ffffff;
+    border-color: rgb(41, 41, 41);
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+
+}
+.description_box button:hover{
+    background-color: rgb(41, 41, 41);
+    color: #ffffff;
+}
+.img_frame{
+    overflow: hidden;
+
+}
+.img_frame img:hover {
+scale: 1.1;
+}
+.horizontal{
+    margin: 50px 90px;
+    background-color: #f4f4f4;
+    height: 2px;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.date span i{
+    color: rgb(41, 41, 41);
+
+}
+
+.sale_container{
+    position: relative;
+    padding: 0 90px;
+}
+
+.sale_text{
+    position: absolute;
+    top: 130px;
+    left: 200px;
+
+}
+.sale_container p:first-child{
+    font-size: 24px;
+    color: rgb(41, 41, 41);
+
+}.sale_container p:last-of-type{
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(41, 41, 41);
+
+}
+.sale_text button{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #ffffff;
+    border-color: rgb(41, 41, 41);
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+.sale_text button:hover{
+    background-color: rgb(41, 41, 41);
+    color: #ffffff;
+}

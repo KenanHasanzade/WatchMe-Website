@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.slideshow {
+    width: 100%;
+    height: 500px;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sale {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    padding: 0 90px;
+}
+
+.sale img {
+    width: 100%;
+    height: 100%;
+}
+
+.sale div {
+    width: 573px;
+    background-color: #f7f7f7;
+    height: 322px;
+    position: relative;
+}
+
+
+.first_text,
+.second_text,
+.third_text {
+    position: absolute;
+    color: rgb(32, 32, 32);
+}
+
+.first_text {
+    top: 60px;
+    left: 40px;
+    font-size: 22.5px;
+    font-weight: 500;
+}
+
+.second_text {
+    top: 85px;
+    left: 40px;
+    font-size: 15px;
+    line-height: 32px;
+}
+.third_text{
+    top: 150px;
+    left: 40px;
+}
+.third_text:hover{
+    cursor: pointer;
+}
+.third_text i{
+    color: rgb(44,175,78);
+}
+
+.monday_sale img:hover {
+    scale: 1.1;
+}
+
+.monday_sale img {
+    transition-duration: 1s;
+}
+
+.monday_sale {
+    overflow: hidden;
+}
+
+
+.winter_sale img:hover {
+    scale: 1.1;
+}
+
+.winter_sale img {
+    transition-duration: 1s;
+}
+
+.winter_sale {
+    overflow: hidden;
+    margin-left: 1%;
+}
+
+.slidecontainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #f7f7f7;
+    height: 500px!important;
+    position: relative;
+    overflow: hidden;
+}
+.slidehead {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+.slideimg {
+    width: 500px!important;
+    height: 500px!important;
+}
+.shop_button{
+    width: 150px;
+    height: 40px;
+    background-color: #ffffff;
+    cursor: pointer;
+    border: 1px solid rgb(41,41,41);
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: rgb(41,41,41);
+    transition-duration: 0.5s;
+
+}
+
+.shop_button:hover{
+    background-color: rgb(41,41,41);
+    color: #ffffff;
+}
+
+
+
+ .slidehead h2{
+font-size: 35px;
+color: rgb(41,41,41);
+}  
+.slidehead {
+    width: 600px;
+    height:150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 40px;
+}
