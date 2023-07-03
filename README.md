@@ -1,5 +1,7 @@
-# Getting Started with Create React App
 
+# Getting Started with Create React App
+<image src="./watchme-website.jpg" alt="watch e-commerce">
+<image src="./watchMe2.jpg" alt="watch e-commerce">
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
